@@ -39,6 +39,12 @@
     flex-basis: 75%;
 }
 
+.format{
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
 .emptybox2{
     flex-basis: 75%;
 }
