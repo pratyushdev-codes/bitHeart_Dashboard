@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <style>
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      background-color: #f2f2f2;
+      padding: 20px;
+    }
+
+    .box {
+      background-color: #fff;
+      border: 1px solid black;
+      padding: 10px;
+      margin: 10px;
+      text-align: center;
+    }
+
+    .hero-image {
+      text-align: center;
+      padding: 10px ;
+      width: 100%;
+      height: 50px;
+      background-color: #cccccc;
+      margin-bottom: 20px;
+    }
+
+    .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .rowcontent{
+       display: flex;
+       flex-direction: row;
+    }
+
+    .steps{
+        flex-basis: 75%;
+    }
+
+    .emptybox2{
+        flex-basis: 75%;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="dashboard"></div>
+  <div class="hero-image"> Hero Image/Banner </div>
+  <div class="container">
+    <div class="content">
+        <div class="row1">
+            <div class="rowcontent">
+                <div class="steps box">216/500<br>steps</div>
+                <div class="bp box">Blood<br>Pressure</div>
+                <div class="hr box">Heart Rate</div>
+            </div>
+        </div>
+        <div class="row2">
+            <div class="rowcontent">
+                <div class="bt box">Body<br>Temprature</div>
+                <div class="box emptybox1">Empty Box 1 </div>
+                <div class="box emptybox2">Empty Box 2</div>
+            </div>
+        </div>
+        
+    </div>
+    
+    
+  </div>
+</body>
+</html> 
